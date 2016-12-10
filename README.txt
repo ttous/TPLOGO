@@ -5,6 +5,8 @@
 ## There is a doxyfile named "Doxyfile".
 ## 
 ## Before to start the program, I advise to clean it with 'make clean'.
+## * : Notice that the Github version of this project doesn't include the
+## Doxygen files
 
 
 #To compile all the functions : 'make Test'.
@@ -19,20 +21,20 @@ This command compiles automatically before testing.
 The translator reads a LOGO file called "LOGO" in the directory and
 creates an SVG file named "SVG.svg".
 
-#To create the doxyfile : 'make Doxyfile'
+#To create the doxyfile : 'make Doxyfile' *
 
-#To create the html Doxygen documentation : 'make Doxygen'
+#To create the html Doxygen documentation : 'make Doxygen' *
 
 #To display the SVG drawing from the "SVG.svg" file : 'eog SVG.svg'.
 
-#To display the documentation : '[your browser] html/index.html'
+#To display the documentation : '[your browser] html/index.html' *
 For example : [your browser] can be "firefox".
 
 
 #FAQ :
 #Q: What did you implement in this project that wasn't asked ?
 #A: _ The Doxygen documentation (including the version of each file,
-    its date of modification, my name, warnings, etc.).
+    its date of modification, my name, warnings, etc.). *
     _ The makefile.
     _ Information printing on screen for the user.
     _ Coloured svg figures.

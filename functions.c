@@ -206,13 +206,13 @@ void freeProg(INST* root){
 * @param prog The pointer towards the program to repeat.
 *
 * @warning Parameter 'prog' is different from 'NULL' if and only
-* parameter 'key' equals '3', which refers to the 'REPEAT'
+* if parameter 'key' equals '3', which refers to the 'REPEAT'
 * instruction.
 * @warning This function allocates memory to the returned pointer.
 * Function 'freeProg(INST* root)' must be used on the returned
 * variable to free the allocated memory.
 *
-@return The pointer towards the instruction created.
+* @return The pointer towards the instruction created.
 */
 INST* createInst(instType key, int val, INST* prog){
   assert( !(   ((key == 3)&&(prog == NULL))
